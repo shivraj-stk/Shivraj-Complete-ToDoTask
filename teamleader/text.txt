@@ -1,0 +1,9 @@
+ <td><?php if($row["status"]=="assigned")
+    echo '<p style="color:blue;">assigned</p>';
+  ?><?php if($row["status"]=="ongoing")
+    echo '<p style="color:yellow;">ongoing</p>';
+  ?><?php if($row["status"]=="testing")
+    echo '<p style="color:cyan;">testing</p>';
+  ?><?php if($row["status"]=="completed")
+    echo '<p style="color:green;">completed</p>';
+  ?></td>
